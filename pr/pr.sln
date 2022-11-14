@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", 
 		file.txt = file.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A8F1E7AE-7C8E-403F-8A70-A2E079413897}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,9 +26,16 @@ Global
 		{5DEE0C66-A31A-4E01-A2E6-A9299C1351F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DEE0C66-A31A-4E01-A2E6-A9299C1351F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DEE0C66-A31A-4E01-A2E6-A9299C1351F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F1E7AE-7C8E-403F-8A70-A2E079413897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F1E7AE-7C8E-403F-8A70-A2E079413897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F1E7AE-7C8E-403F-8A70-A2E079413897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F1E7AE-7C8E-403F-8A70-A2E079413897}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8F1E7AE-7C8E-403F-8A70-A2E079413897} = {9FF50E2E-E8C9-458E-BE55-6252F3630C42}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5EBF81D7-99D8-4665-982A-4B10E2815D9A}
